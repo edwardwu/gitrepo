@@ -11,9 +11,9 @@ flowchart TB
     Grafana_Agent-->Tempo
     end
     subgraph customer-2
-    Prometheus-->Cortex
-    Fluent_bit-->Loki
-    Grafana_Agent-->Tempo
+    Prometheus_2-->Cortex
+    Fluent_bit_2-->Loki
+    Grafana_Agent_2-->Tempo
     end
 ```
 
