@@ -7,8 +7,11 @@ flowchart TB
     end
     subgraph customer-1
     Prometheus-->Cortex
+    Prometheus-->demoapp
     Fluent_bit-->Loki
+    Fluent_bit-->demoapp
     Grafana_Agent-->Tempo
+    Grafana_Agent-->demoapp
     end
 ```
 
