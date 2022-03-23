@@ -1,6 +1,5 @@
 ```mermaid
 flowchart TB
-    c1-->a2
     subgraph svc-gke
     Grafana-->Loki
     Grafana-->Cortex
