@@ -43,4 +43,4 @@ Also you should use the `cache=no` option so that GitHub always renders the curr
 
 That's all - simply see the diagram live:
 
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jonashackt/plantuml-markdown/master/example-uml.iuml)
+![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/edwardwu/gitrepo/master/diagrams/plantuml-proxy/example-uml.iuml)
