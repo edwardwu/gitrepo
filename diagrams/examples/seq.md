@@ -12,6 +12,15 @@ Bob-->Alice: I am good thanks!
 ```
 
 ```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
