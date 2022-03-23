@@ -1,4 +1,4 @@
-```sequence {theme="hand"}
+```sequence
 Andrew->China: Says Hello
 Note right of China: China thnks\nabout it
 China-->Andrew: How are you?
