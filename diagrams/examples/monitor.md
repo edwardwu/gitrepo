@@ -10,6 +10,11 @@ flowchart TB
     Fluent_bit-->Loki
     Grafana_Agent-->Tempo
     end
+    subgraph customer-2
+    Prometheus-->Cortex
+    Fluent_bit-->Loki
+    Grafana_Agent-->Tempo
+    end
 ```
 
 ```mermaid
