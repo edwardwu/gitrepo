@@ -1,19 +1,14 @@
 ```mermaid
 flowchart TB
     subgraph svc-gke
-    Grafana-->Loki
-    Grafana-->Cortex
-    Grafana-->Tempo
+    Grafana-->Loki-->gcs
+    Grafana-->Cortex-->gcs
+    Grafana-->Tempo-->gcs
     end
     subgraph customer-1
     Prometheus-->Cortex
     Fluent_bit-->Loki
     Grafana_Agent-->Tempo
-    end
-    subgraph customer-2
-    Prometheus_2-->Cortex
-    Fluent_bit_2-->Loki
-    Grafana_Agent_2-->Tempo
     end
 ```
 
