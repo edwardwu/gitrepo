@@ -4,8 +4,10 @@ flowchart TB
     Grafana-->Loki-->gcs
     Grafana-->Cortex-->gcs
     Grafana-->Tempo-->gcs
+    Kong-svc
     end
     subgraph customer-1
+    Kong-customer
     Prometheus-->Cortex
     Prometheus-->demoapp
     Fluent_bit-->Loki
